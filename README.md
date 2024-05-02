@@ -1,6 +1,6 @@
 # employee_user_app
 
-A new Flutter project.
+A new Flutter for Employee idenfication and verification.
 
 ## Getting Started
 
