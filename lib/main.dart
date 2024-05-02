@@ -64,13 +64,13 @@ class _SplashScreenState extends State<SplashScreen> {
                 const Text("Employee Identification App", textAlign: TextAlign.center, style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
-                  fontSize: 18,
+                  fontSize: 22,
                   ),
                 ),
               ],
             ),
             const CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.orange),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.black),
             )
           ],
         ),

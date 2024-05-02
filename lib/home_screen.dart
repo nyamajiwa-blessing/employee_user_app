@@ -7,8 +7,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Employee ID System'),
-        backgroundColor: Colors.orange,
+        title: const Text('Employee ID System', style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+        ),
+        textAlign: TextAlign.center),
+        backgroundColor: Colors.blue,
       ),
       body: const Center(
         child: Text('App content goes here...'),
